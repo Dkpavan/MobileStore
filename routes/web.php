@@ -21,3 +21,8 @@ Route::get('/', function () {
 Route::get('/login', function () {
     return view('login');
 });
+
+//index
+Route::get('/index', function () {
+    return view('index');
+});

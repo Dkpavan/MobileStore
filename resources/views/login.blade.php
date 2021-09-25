@@ -14,15 +14,15 @@
   <meta name="keywords" content="" />
   <meta name="author" content="yoursite.com" />
 
-  <title>Authfy : Login-03</title>
+  <title>Mobile Store</title>
 
   <!-- Favicon -->
   <link rel="shortcut icon" type="image/icon" href="http://koder.top/404.html"/>
 
   <!-- Main structure css file -->
   <link  rel="stylesheet" href="{{asset('assets/css/css/login3-style.css')}}">
-  <link  rel="stylesheet" href="{{asset('assets/css/font-awesome.min.css')}}">
-  <link  rel="stylesheet" href="{{asset('assets/css/preloader.css')}}">
+  <link  rel="stylesheet" href="{{asset('assets/fonts/fonts/font-awesome.min.css')}}">
+  <link  rel="stylesheet" href="{{asset('assets/css/css/preloader.css')}}">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
