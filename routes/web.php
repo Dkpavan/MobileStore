@@ -19,10 +19,10 @@ Route::get('/', function () {
 
 //login
 Route::get('/login', function () {
-    return view('login');
+    return view('admin.login');
 });
 
 //index
 Route::get('/index', function () {
-    return view('index');
+    return view('admin.index');
 });
