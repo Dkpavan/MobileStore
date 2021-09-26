@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
 //login
 Route::get('/login', function () {
     return view('admin.login');
@@ -26,3 +27,13 @@ Route::get('/login', function () {
 Route::get('/index', function () {
     return view('admin.index');
 });
+
+Route::get('/product', function () {
+    return view('admin.product.grid');
+});
+
+//admin
+// Route::prefix('admin')->group(function ()
+// {
+
+// });
