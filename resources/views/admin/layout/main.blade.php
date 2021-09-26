@@ -115,7 +115,8 @@
 
     <script src="{{asset('assets/js/app.js')}}"></script>
 
-
+    <!-- Responsive Table js -->
+    <script src="{{asset('assets/libs/admin-resources/rwd-table/rwd-table.min.js')}}"></script>
 
 </body>
 

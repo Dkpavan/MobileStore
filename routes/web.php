@@ -28,6 +28,7 @@ Route::get('/index', function () {
     return view('admin.index');
 });
 
+
 Route::get('/product', function () {
     return view('admin.product.grid');
 });
@@ -37,3 +38,7 @@ Route::get('/product', function () {
 // {
 
 // });
+
+Route::get('/table', function () {
+    return view('table');
+});
