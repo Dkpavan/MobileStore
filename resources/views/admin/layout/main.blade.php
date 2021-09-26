@@ -118,6 +118,9 @@
     <!-- Responsive Table js -->
     <script src="{{asset('assets/libs/admin-resources/rwd-table/rwd-table.min.js')}}"></script>
 
+    <!-- Init js -->
+    <script src="{{asset('assets/js/pages/table-responsive.init.js')}}"></script>
+
 </body>
 
 </html>
