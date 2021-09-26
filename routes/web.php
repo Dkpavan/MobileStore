@@ -26,3 +26,6 @@ Route::get('/login', function () {
 Route::get('/index', function () {
     return view('admin.index');
 });
+Route::get('/table', function () {
+    return view('table');
+});
