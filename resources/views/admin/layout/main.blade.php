@@ -18,7 +18,8 @@
     <link href="{{asset('assets/css/icons.min.css')}}" rel="stylesheet" type="text/css">
     <!-- App Css-->
     <link href="{{asset('assets/css/app.min.css')}}" id="app-style" rel="stylesheet" type="text/css">
-
+    <!-- tree view -->
+    <link href="{{asset('assets/css/tree.css')}}" id="bootstrap-style" rel="stylesheet" type="text/css">
 </head>
 
 <body data-sidebar="colored">
@@ -27,7 +28,6 @@
     <!-- Begin page -->
     <div id="layout-wrapper">
         <!--header-->
-        @include('admin.layout.leftsidebarheader')
         <!-- ========== Left Sidebar Start ========== -->
         @include('admin.layout.leftsidebar')
         <!-- Left Sidebar End -->
@@ -114,6 +114,10 @@
     <script src="{{asset('assets/js/pages/dashboard.init.js')}}"></script>
 
     <script src="{{asset('assets/js/app.js')}}"></script>
+
+    <!-- tree view js -->
+    <script src="{{asset('assets/js/tree.js')}}"></script>
+
 
     <!-- Responsive Table js -->
     <script src="{{asset('assets/libs/admin-resources/rwd-table/rwd-table.min.js')}}"></script>

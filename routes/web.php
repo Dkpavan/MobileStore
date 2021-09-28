@@ -33,6 +33,10 @@ Route::get('/product', function () {
     return view('admin.product.grid');
 });
 
+Route::get('/category', function () {
+    return view('admin.category.grid');
+});
+
 //admin
 // Route::prefix('admin')->group(function ()
 // {
